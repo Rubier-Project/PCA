@@ -4,7 +4,7 @@
 
 # WebSocket
 
-## Asynchronous
+### Asynchronous
 ```python
 async def runner():
     ws = AsyncWebSocket("1f643dead3a310bb18aa64a7438ba72b")
@@ -15,7 +15,7 @@ async def runner():
 asyncio.run(runner())
 ```
 
-## Synchronous
+### Synchronous
 ```python
 ws = WebSocket("1f643dead3a310bb18aa64a7438ba72b")
 ws.setServer("ws://127.0.0.1:3000/") # Seted localhost for Test
@@ -25,7 +25,7 @@ console.print(data)
 
 # HTTP(s)
 
-## Asynchronous
+### Asynchronous
 ```python
 async def runner():
     http = AsyncHttp("1f643dead3a310bb18aa64a7438ba72b")
@@ -36,7 +36,7 @@ async def runner():
 asyncio.run(runner())
 ```
 
-## Synchronous
+### Synchronous
 ```python
 http = Http("1f643dead3a310bb18aa64a7438ba72b")
 http.setServer("http://127.0.0.1:3000/") # Seted localhost for Test

@@ -39,7 +39,6 @@ install()
 
 class Encryption(object):
     def __init__(self):
-        self.secret = "BYTES-+UNDERCOVER_DSA_[DS],{}324432.432"
         self.iv = bytes.fromhex("0"*32)
     
     def encrypt(self, text: str, key: str) -> dict:
@@ -73,7 +72,6 @@ class Encryption(object):
 
 class AsyncEncryption(object):
     def __init__(self):
-        self.secret = "BYTES-+UNDERCOVER_DSA_[DS],{}324432.432"
         self.iv = bytes.fromhex("0"*32)
     
     async def encrypt(self, text: str, key: str) -> dict:

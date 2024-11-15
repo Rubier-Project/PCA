@@ -1,6 +1,6 @@
 # Asynchronous/Synchronous Module
 + [Github Link](https://github.com/Rubier-Project/PCA)
-+ [Telegram Channel](https://t.me/PersianClassApp)
++ [Telegram Channel](https://t.me/PikaApplication)
 
 # WebSocket
 
